@@ -38,6 +38,7 @@ android {
         applicationId "br.brunocarvalhs.payflow"
         minSdkVersion 23
         targetSdkVersion 30
+        multiDexEnabled true
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
